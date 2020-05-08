@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* border: 0.1px solid black; */
+}
+
+#container {
+    width: 70%;
+    margin: auto;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: brown;
+}
+
+/* ENCABEZADO */
+
+.encabezado {
+    margin: 40px 0;
+}
+
+/* SECCIONES */
+.sec-basicos div {
+    float: left;
+    padding: 10px;
+    margin: 15px 20px;
+    width: 24%;
+    min-width: 220px;
+    height: 340px;
+    border: 0.5px solid darkgray;
+    border-bottom: 2px solid darkgray;
+    border-left: 2px solid darkgray;
+    border-radius: 2%;
+}
+
+.sec-basicos div:hover {
+    width: 27%;
+    min-width: 240px;
+    height: 350px;
+}
+
+.sec-basicos div h3 {
+    text-align: center;
+}
+
+.sec-basicos div p {
+    width: 95%;
+}
+
+.sec-basicos div img {
+    max-width: 90%;
+    min-width: 30px;
+    margin: 20px 0;
+    padding-bottom: 2px;
+    border-bottom: 1px solid black;
+}
+
+
+
+

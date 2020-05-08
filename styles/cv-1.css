@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* border: .1px solid black; */
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+/* ENCABEZADO */
+
+header {
+    width: 100%;
+    margin: auto;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+
+header h1 {
+    margin: 20px;
+    text-align: center;
+}
+
+/* ESTRUCTURA CV */
+
+.datos {
+    width: 80%;
+    margin: auto;
+    border-left: 1px solid black;
+    border-right:  1px solid black;;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.foto {
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin: 20px 60px;
+}
+
+.datos div {
+    margin: 40px 5px;
+}
+
+.datos div ul {
+    text-indent: 40px;
+    margin: 30px 0;
+}
+
+.datos div h3 {
+    margin: 0 20px;
+}
+
+.datos div li {
+    margin: 20px;
+}
+
+@media screen and (max-width:680px){
+    header {
+        width: 90%;
+        min-width: 440px;
+        padding: 0;
+    }
+
+    header h1 {
+        text-align: left;
+    }
+
+    .datos {
+        width: 98%;
+        min-width: 490px;
+    }
+}
